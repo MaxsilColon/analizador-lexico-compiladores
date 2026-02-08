@@ -1,0 +1,6 @@
+// Ejemplo 1: Variables y operaciones básicas
+int numero1 = 10;
+int numero2 = 20;
+int resultado = numero1 + numero2;
+float promedio = 15.5;
+string nombre = "Analizador Lexico";

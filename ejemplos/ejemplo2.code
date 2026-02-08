@@ -1,0 +1,13 @@
+// Ejemplo 2: Estructuras de control
+int edad = 18;
+boolean esMayor;
+
+if (edad >= 18) {
+    esMayor = true;
+} else {
+    esMayor = false;
+}
+
+while (edad < 100) {
+    edad = edad + 1;
+}

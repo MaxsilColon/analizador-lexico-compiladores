@@ -1,0 +1,40 @@
+# Compiled class files
+*.class
+
+# Generated files
+src/generated/
+*.java
+!src/main/java/**/*.java
+
+# JAR files
+*.jar
+!lib/*.jar
+lib/*.zip
+
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build directories
+build/
+target/
+out/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Documentation to ignore
+docs/
+code_documentation.md
+language_documentation.md
+

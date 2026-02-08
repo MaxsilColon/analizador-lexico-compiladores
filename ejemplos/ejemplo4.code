@@ -1,0 +1,10 @@
+// Ejemplo 4: Con comentarios y cadenas
+/* Este es un comentario
+   de múltiples líneas */
+
+int x = 5; // Comentario en línea
+
+string saludo = "Hola Mundo";
+string vacio = "";
+
+/* Otro comentario de bloque */

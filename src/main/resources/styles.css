@@ -1,0 +1,61 @@
+/* Estilos para la aplicación del Analizador Léxico */
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 12px;
+}
+
+/* Estilos para botones */
+.button {
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+
+/* Estilos para la tabla de tokens */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+}
+
+.table-view .column-header {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-background-color: white;
+}
+
+/* Estilos para el editor de código */
+.text-area {
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 13px;
+}
+
+/* Estilos para el área de errores */
+#errorsArea {
+    -fx-background-color: #ffebee;
+    -fx-border-color: #d32f2f;
+    -fx-border-width: 1px;
+}
+
+/* Estilos para separadores */
+.separator {
+    -fx-padding: 5px 0px;
+}
+
+/* Estilos para labels de título */
+.label {
+    -fx-font-size: 14px;
+}

@@ -1,0 +1,13 @@
+// Ejemplo 3: Funciones
+int sumar(int a, int b) {
+    return a + b;
+}
+
+void imprimir(string mensaje) {
+    // Esta función no retorna nada
+}
+
+int calcular(int x, int y) {
+    int resultado = x * y;
+    return resultado;
+}
